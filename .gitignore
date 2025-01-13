@@ -1,0 +1,55 @@
+# General files to ignore
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.i
+*.ii
+*.s
+*.swp
+
+# Nix
+flake.lock
+
+# Python environment
+.venv/
+
+# CMake build directories
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build/
+Makefile
+
+# IDE specific files
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Coverage files
+*.gcno
+*.gcda
+*.gcov
+
+# Dependency management tools
+_install/
+*.pyc
+__pycache__/
+
+# Other system files
+.DS_Store
+Thumbs.db
